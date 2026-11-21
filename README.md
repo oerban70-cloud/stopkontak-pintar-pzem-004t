@@ -7,7 +7,7 @@ sebelum kabel sempat panas atau MCB rumah jeglek. Tegangan, arus, daya,
 dan energi tampil di LCD 16x2, dan tombol reset menolkan penghitung
 energi sekaligus membuka kunci cutoff.
 
-Video penjelasan (60 detik): link menyusul setelah upload
+Video penjelasan (60 detik): https://www.youtube.com/shorts/tW2gcQ6Bu54
 
 > **Peringatan keselamatan:** PZEM-004T terhubung LANGSUNG ke listrik
 > PLN 220 V AC. Pasang hanya bila paham instalasi listrik; jangan sentuh
