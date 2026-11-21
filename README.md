@@ -87,19 +87,16 @@ Ubah di bagian atas sketch
 |---|---|
 | Board | `esp32:esp32:esp32` |
 | Core ESP32 | 4.0.0 |
-| Program (`USE_TELEGRAM` 0) | 318.857 byte (24% dari flash) |
-| RAM global (`USE_TELEGRAM` 0) | 24.632 byte (7%) |
-| Program (`USE_TELEGRAM` 1) | 1.081.553 byte (82% dari flash) |
-| RAM global (`USE_TELEGRAM` 1) | 51.632 byte (15%) |
+| Program (`USE_TELEGRAM` 0) | 320.897 byte (24% dari flash) |
+| RAM global (`USE_TELEGRAM` 0) | 24.704 byte (7%) |
+| Program (`USE_TELEGRAM` 1) | 1.093.417 byte (83% dari flash) |
+| RAM global (`USE_TELEGRAM` 1) | 52.000 byte (15%) |
 | Library PZEM | PZEM004Tv30 1.2.1 (Jakub Mandula) |
 | Library LCD | LiquidCrystal_I2C 1.1.2 |
 
-Status: angka di atas berasal dari compile uji memakai replika
-antarmuka library PZEM004Tv30 (stub) yang dibuat dari header aslinya —
-sintaks sketch dan pemakaian API-nya sudah lolos compile di ESP32 core
-4.0.0, termasuk jalur `USE_TELEGRAM` 1. Compile penuh memakai library
-PZEM004Tv30 asli masih menunggu persetujuan (pemeriksaan risiko
-eksekusi); angkanya bisa bergeser sedikit dari tabel di atas.
+Status: angka di atas hasil compile penuh memakai library
+PZEM004Tv30 1.2.1 asli (arduino-cli 1.6.0, ESP32 core 4.0.0,
+diverifikasi 21 Nov 2026).
 
 ## Library
 
